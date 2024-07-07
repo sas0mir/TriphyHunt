@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D310DED42C35EF5300529609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D310DED32C35EF5300529609 /* ViewController.swift */; };
+		D310DED62C3B1D2800529609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D310DED52C3B1D2800529609 /* Main.storyboard */; };
 		D3D4E9262A6438BF0087B8B5 /* TriphyHuntApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4E9252A6438BF0087B8B5 /* TriphyHuntApp.swift */; };
 		D3D4E9282A6438BF0087B8B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4E9272A6438BF0087B8B5 /* ContentView.swift */; };
 		D3D4E92A2A6438C00087B8B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D4E9292A6438C00087B8B5 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D310DED32C35EF5300529609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D310DED52C3B1D2800529609 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D3D4E9222A6438BF0087B8B5 /* TriphyHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriphyHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D4E9252A6438BF0087B8B5 /* TriphyHuntApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriphyHuntApp.swift; sourceTree = "<group>"; };
 		D3D4E9272A6438BF0087B8B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				D3D4E9272A6438BF0087B8B5 /* ContentView.swift */,
 				D3D4E9292A6438C00087B8B5 /* Assets.xcassets */,
 				D3D4E92B2A6438C00087B8B5 /* Preview Content */,
+				D310DED32C35EF5300529609 /* ViewController.swift */,
+				D310DED52C3B1D2800529609 /* Main.storyboard */,
 			);
 			path = TriphyHunt;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D310DED62C3B1D2800529609 /* Main.storyboard in Resources */,
 				D3D4E92D2A6438C00087B8B5 /* Preview Assets.xcassets in Resources */,
 				D3D4E92A2A6438C00087B8B5 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D310DED42C35EF5300529609 /* ViewController.swift in Sources */,
 				D3D4E9282A6438BF0087B8B5 /* ContentView.swift in Sources */,
 				D3D4E9262A6438BF0087B8B5 /* TriphyHuntApp.swift in Sources */,
 			);

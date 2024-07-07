@@ -7,15 +7,30 @@
 
 import SwiftUI
 
+enum Icons: String, CaseIterable {
+    case 😂, 😳, 😎, 🤭
+}
+
 struct ContentView: View {
+    
+    @State var selection: Icons = .😂
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Text(selection.rawValue)
+                    .font(.system(size: 150))
+                Picker("Select Icon", selection: $selection) {
+                    ForEach(Icons.allCases, id: \.self) {
+                        icon in
+                        Text(icon.rawValue)
+                    }
+                }
+                .pickerStyle(.segmented)
+            }
+            .navigationTitle("Icons")
+            .padding()
         }
-        .padding()
     }
 }
 
